@@ -19,14 +19,15 @@
     "services/*"
   ],
   "extends": ["airbnb", "airbnb/hooks", "next/core-web-vitals"],
-  "plugins": ["sort-imports-es6-autofix"],
   "rules": {
     "function-paren-newline": 0,
     "implicit-arrow-linebreak": 0,
     "indent": 0,
     "no-control-regex": 0,
     "no-nested-ternary": 0,
+    "no-plusplus": 0,
     "no-tabs": 0,
+    "no-underscore-dangle": 0,
     "object-curly-newline": 0,
     "operator-linebreak": 0,
     "prefer-arrow-callback": 0,
