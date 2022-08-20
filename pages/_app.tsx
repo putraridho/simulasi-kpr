@@ -16,7 +16,10 @@ function MyApp({ Component, pageProps }: AppProps) {
             name="description"
             content="Kalkulator untuk menghitung perkiraan biaya yang dikeluarkan dalam KPR Syariah"
           />
-          <meta name="keywords" content="KPR, KPR Syariah, Bunga Flat" />
+          <meta
+            name="keywords"
+            content="Kalkulator KPR, Simulasi KPR, KPR,  KPR Syariah, Bunga Flat"
+          />
           <meta name="author" content="@mrputraridho" />
         </Head>
         <Component {...pageProps} />
